@@ -1,0 +1,9 @@
+Componente Funcional:
+	-> Funcion en JS que retorna elemento
+	-> Debe retornar JSX
+	-> Comenzar con Mayus
+	-> Puede recibir argumentos
+
+- Elementos y componentes
+
+57.10
