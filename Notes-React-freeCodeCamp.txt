@@ -6,4 +6,10 @@ Componente Funcional:
 
 - Elementos y componentes
 
-57.10
+Create app:
+	- npx create-react-app project-01-app
+	- With basic structure
+	- npm start => for init the react app
+
+
+1:50:17
