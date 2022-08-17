@@ -14,9 +14,13 @@ Create app:
 
 componentes:
 	1. Crear componente
-	
+
 	2. Exportar componente
 		export default Testimony;
 
 	3. Importar componente
 		import Testimonials from './components/Testimonials';
+
+
+	PROPS:
+	
