@@ -3,7 +3,7 @@ import React from "react";
 function Testimony() {
   return (
     <div className="containerTestimony">
-      <img className="imageTestimony" src="../images/testimony-juan.png" alt="Emma photography"/>
+      <img className="imageTestimony" src={require('../images/testimony-juan.png')} alt="Juanda photography"/>
       <div className="containerTextTestimony">
         <p className="nameTestimony">Juan David in Colombia</p>
         <p className="positionTestimony">Software Engineer on Rappi</p>
@@ -12,3 +12,5 @@ function Testimony() {
     </div>
   );
 }
+
+export default Testimony;
