@@ -22,5 +22,20 @@ componentes:
 		import Testimonials from './components/Testimonials';
 
 
-	PROPS:
+PROPS:
+	1. In the component, in the function create:
+		function NameComponent (props) {}
+
+	2. Use props in the HTML design like a OOP
+		          <b>{props.name}</b> in {props.country}
+	
+	3. In the App JS
+		Using and specify every single prop
+		<NameComponent 
+			name='Juan'
+			country='Colombia'
+		/>
+	
+	I can use the component what ever I needed
+
 	
