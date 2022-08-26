@@ -37,5 +37,3 @@ PROPS:
 		/>
 	
 	I can use the component what ever I needed
-
-	
