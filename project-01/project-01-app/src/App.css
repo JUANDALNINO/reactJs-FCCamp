@@ -34,3 +34,17 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+.footer {
+    text-align: center;
+  }
+  
+.createdBy {
+    margin-top: 40px;
+    text-decoration: none;
+    
+  }
+  
+.year {
+    color: antiquewhite;
+  }
