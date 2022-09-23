@@ -10,6 +10,10 @@ function App() {
           className="freeCodeCamp-logo"
           alt="Logo" />
       </div>
+
+      <div className='container-calculator'>
+
+      </div>
     </div>
   );
 }
