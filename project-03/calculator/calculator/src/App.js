@@ -12,7 +12,11 @@ function App() {
       </div>
 
       <div className='container-calculator'>
-
+        <div className='row'></div>
+        <div className='row'></div>
+        <div className='row'></div>
+        <div className='row'></div>
+        <div className='row'></div>
       </div>
     </div>
   );
