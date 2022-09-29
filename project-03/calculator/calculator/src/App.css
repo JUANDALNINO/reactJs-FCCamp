@@ -39,5 +39,6 @@
 }
 
 .containerMonitor {
-  background-color: rgb(80, 78, 78);;
+  background-color: rgb(80, 78, 78);
+  border-radius: 8px;
 }
