@@ -11,6 +11,10 @@ function App() {
 
   const addInput = val => {
     setInput(input + val);
+  };
+
+  const calculateResult = () => {
+    setInput();
   }
 
   return (
