@@ -4,6 +4,7 @@ import Button from './components/Button';
 import Monitor from './components/Monitor';
 import BtnClear from './components/BtnClear';
 import { useState } from 'react';
+import { evaluate } from 'mathjs';
 
 function App() {
 
@@ -14,7 +15,11 @@ function App() {
   };
 
   const calculateResult = () => {
-    setInput();
+    if(input) {
+      setInput(evaluate(input));
+    } else {
+      alert("Please introduce values")
+    }
   }
 
   return (
@@ -51,7 +56,7 @@ function App() {
         <div className='row'>
           <Button handleClick={addInput}>0</Button>
           <Button handleClick={addInput}>.</Button>
-          <Button handleClick={addInput}>=</Button>
+          <Button handleClick={calculateResult}>=</Button>
           <Button handleClick={addInput}>/</Button>
         </div>
         <div className='row'>
